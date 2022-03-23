@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Oswald:wght@300;700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;    
+}
+.container{ 
+   width: 1517px;
+   height: 815px;
+   background-image: url("/image/Group\ 7838.png");
+   background-size: 100% 100%;
+   
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+.navbar ul{
+    display: flex;
+    gap: 60px;
+    margin-right: 60px;  
+}
+ul li{
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 16px;   
+}
+.navbar .sekiller{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    margin: 50px;   
+}
+.s1{
+    margin: 100px 465px 280px 130px;
+    color: #FFFFFF;
+}
+.s1 .yazi1{
+    width: 560px;
+    height: 140px;
+    font-size: 64px;
+    color: #30FFCD;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    line-height: 60px;
+}
+.s1 .yazi2{
+    width: 620px;
+    height: 85px;
+    font-size: 18px;
+    font-weight: 600px;
+    line-height: 28px;   
+}
+.s1 .yazi3{
+    width: 260px;
+    height: 24px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+       /*seh2*/
+
+.seh2 header{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 130px;
+    margin-left: 120px;
+    gap: 190px;
+   
+
+}
+header h1{
+    width: 705px;
+    height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    color: #382459;
+    font-size: 47px;
+    font-weight: 700;
+    
+}
+header a{
+    font-size: 15px;
+    text-align: center;
+    width: 224px;
+    height: 35px;
+    background: #FF1DC0;
+    border-radius: 48px;
+    color: #FFFFFF;
+    border: none;
+    text-decoration: none;
+    padding-top: 10px;
+}
+.seh2 main{
+    display: flex;
+    margin-right: 210px;
+    margin-bottom: 75px;
+    margin-left: 120px;
+    gap: 190px;
+}
+.s2 img{
+    width: 75px;
+    height: 73px;
+    margin: 20px
+}
+.s2 h2{
+    width: 260px;
+    height: 73px;
+    color: #382459;
+    font-size: 25px;
+    line-height: 32px;
+    padding-bottom: 20px;
+}
+.s2 p{
+    width: 350px;
+    height: 126px;
+    color: #382459;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    
+}
+.s3 img{
+    width: 85px;
+    height: 91px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.s3 h2{
+    width:368px ;
+    height: 66px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 32px;
+    margin-left: 20px;
+    color: #382459;
+    padding-bottom: 20px;
+}
+.s3 p{
+    width: 352px;
+    height: 93px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 20px;
+    color: #382459;
+}
+/*seh3*/
+.seh3{
+    background-color: #382459;
+    height: 624px;
+    width: 1397px;
+    display: flex;
+    padding-left: 120px;
+    padding-top: 100px;
+    gap: 250px;
+}
+.seh3 img{
+    position: absolute;
+    width: 95.63px;
+    height: 128px;
+    right: 250px;
+    top: 2117px;
+}
+ .h1,.h2{
+    color:#30FFCD;
+    width: 295px;
+    height: 34px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 44px;
+    padding-bottom: 45px;
+}
+ .p1,.p3{
+    color: #FFFFFF;
+    width: 308px;
+    height: 82px;
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 35px;
+}
+ .p2,.p4{
+    color: #FFFFFF;
+    width: 277px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 13px;
+    padding-bottom: 50px;
+}
+
+/*seh4*/
+.seh4{
+    padding-left: 120px;
+    padding-top: 110px;
+    color: #382459;
+
+}
+.seh4 header{
+    padding-bottom: 110px;
+    width: 836px;
+    height: 50.02px;
+    font-weight: 700;
+    font-size: 47px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.seh4 main{
+    display: flex;
+    gap: 100px;
+}
+ .s6 h2{
+     width: 216px;
+     height: 64px;
+     font-weight: 600;
+     font-size: 25px;
+     padding-bottom: 23px;
+ }
+ .s6 p{
+     width: 270px;
+     height: 126px;
+     font-weight: 500;
+     font-size: 16px;
+     padding-bottom: 156px;
+ }
+ .s7 h2{
+     width: 320px;
+     height: 64px;
+     font-weight: 600;
+     font-size: 25px;
+     padding-bottom: 23px;
+ }
+ .s7 p{
+     width: 260px;
+     height: 126px;
+     font-weight: 500;
+     font-size: 16px;
+     padding-bottom: 156px;
+ }
+ .s8 h2{
+     width: 236px;
+     height: 33px;
+     font-weight: 600;
+     font-size: 25px;
+     padding-bottom: 53px;
+ }
+ .s8 p{
+     width: 260px;
+     height: 126px;
+     font-weight: 500;
+     font-size: 16px;
+     padding-bottom: 156px;
+ }
+ /*---seh5---*/
+ .seh5{
+     background-color:  #2E1E49;
+     display: flex;
+     width: 1397px;
+     padding-top: 105px;
+     padding-left: 120px;
+     padding-bottom: 105px ;
+     gap: 200px;
+     z-index: -1;
+ }
+ .s9 h1{
+     width: 420px;
+     height: 48px;
+     font-weight: 500;
+     font-size: 44px;
+     color: #30FFCD;
+     padding-bottom: 76px;
+     font-family: 'Montserrat', sans-serif;
+     font-family: 'Oswald', sans-serif;
+ }
+ .s9 p{
+     width: 436px;
+     height: 264px;
+     font-weight: 500;
+     font-size: 20px;
+     color: #FFFFFF;
+     padding-bottom: 150px;
+ }
+ .s9 a{
+     color: #30FFCD;
+     font-size: 20px;
+     text-decoration: none;
+     font-weight: 500;
+     padding: 8px 20px;
+     height: 48px;
+     border: 2px solid #33DFC0;
+     border-radius: 48px;   
+ }
+ .s10 h1{
+     width: 420px;
+     height: 48px;
+     font-weight: 500;
+     font-size: 44px;
+     color: #30FFCD;
+     font-family: 'Montserrat', sans-serif;
+     font-family: 'Oswald', sans-serif;
+     padding-bottom: 76px;
+ }
+ .s10 p{
+     width: 370px;
+     height: 264px;
+     font-weight: 500;
+     font-size: 20px;
+     color: #FFFFFF;
+     padding-bottom: 150px;
+ }
+ .s10 a{
+     color: #30FFCD;
+     font-size: 20px;
+     text-decoration: none;
+     font-weight: 500;
+     padding: 8px 20px;
+     height: 48px;
+     border: 2px solid #33DFC0;
+     border-radius: 48px;
+ }
+ /*seh6*/
+ .seh6{
+     display: flex;
+     padding-top: 115px;
+     padding-left: 120px;
+     height: 325px;
+
+ }
+.s11 h1{
+    width: 520px;
+    height: 50.02px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    color: #382459;
+    font-weight: 700;
+    font-size: 50px;
+    padding-bottom: 60px;
+ }
+ .s11 p{
+     color: #382459;
+     font-size: 22px;
+     font-weight: 500px;
+     width: 400px;
+     height: 150px;
+ }
+ .s12 img{
+    position: absolute;
+    width: 464px;
+    height: 649.6px;
+    right: 120px;
+    top: 3550px;
+    z-index: 0;
+ }
+
+ /*seh7*/
+ .seh7{
+     position: absolute;
+     display: flex;
+     background: #382459;
+     z-index: 1;
+     width: 1517px;
+     height: 576px;
+     background-size: 100% 100%;
+ }
+ .s13 img{
+     padding-left: 100px;
+     padding-top: 23px;
+ }
+ .s14{
+     padding-top: 152px;
+
+ }
+ .s14 h1{
+    
+    width: 402.11px;
+    height: 100.04px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 47px;
+    padding-bottom: 50px;
+    color: #30FFCD;
+ }
+ .s14 p{
+    width: 480.2px;
+    height: 70.03px;
+    font-weight: 500;
+    font-size: 22px;
+    color: #FFFFFF;
+    padding-bottom: 70px;
+ }
+ .s14 a{
+    font-size: 15px;
+    background: #FF1DC0;
+    border-radius: 48px;
+    color: #FFFFFF;
+    border: none;
+    text-decoration: none;
+    padding: 10px 50px;
+ }
+ /*seh8*/
+ .seh8{
+     display: flex;
+     background-color: #FFFFFF;
+     margin-top: 600px;
+     padding-top: 90px;
+     padding-left: 120px;
+     padding-bottom: 90px;
+ }
+ .s15 .img1{
+    width: 188px;
+    height: 43px;
+    padding-bottom: 53px;
+    padding-right: 110px;
+ }
+ .s15 .img2{
+     width: 19px;
+     height: 19px;
+ }
+ .s16 h3{
+    width: 456px;
+    height: 80px;
+    font-weight: 700;
+    font-size: 16px;
+    padding-bottom: 14px;
+    padding-right: 230px;
+ }
+ .s16 p{
+    width: 383.17px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+ }
+ .s17  .adnsu{
+    padding-left: 20px;
+    width: 96px;
+    height: 16px;
+    padding-bottom: 20px;
+    
+ }
+ .s17 .az{
+     padding-right: 80px;
+     width: 139px;
+     height: 19px;
+ }
+     
