@@ -4,12 +4,11 @@
 *{
     margin: 0%;
     padding: 0%;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Oswald', sans-serif;    
+    font-family: 'Montserrat', sans-serif; 
 }
 .container{ 
-   width: 1517px;
-   height: 815px;
+   width: 100%;
+   height: auto;
    background-image: url("/image/Group\ 7838.png");
    background-size: 100% 100%;
    
@@ -22,7 +21,7 @@
 .navbar ul{
     display: flex;
     gap: 60px;
-    margin-right: 60px;  
+    padding-right: 60px;  
 }
 ul li{
     list-style: none;
@@ -35,50 +34,62 @@ ul li{
     align-items: center;
     justify-content: space-around;
     gap: 50px;
-    margin: 50px;   
+    padding: 50px; 
+}
+.navbar1{
+    display: none;
+}
+.sekiller1{
+    display: none;
 }
 .s1{
-    margin: 100px 465px 280px 130px;
+    padding: 100px 465px 280px 130px;
     color: #FFFFFF;
 }
 .s1 .yazi1{
-    width: 560px;
-    height: 140px;
+    width: 100%;
+    max-width: 560px;
+    height: auto;
     font-size: 64px;
     color: #30FFCD;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Oswald', sans-serif;
-    line-height: 60px;
+    padding-bottom: 26px;
 }
 .s1 .yazi2{
-    width: 620px;
-    height: 85px;
+    width: 100%;
+    max-width: 620px;
+    height: auto;
     font-size: 18px;
     font-weight: 600px;
-    line-height: 28px;   
+    padding-bottom: 47px;   
 }
 .s1 .yazi3{
-    width: 260px;
-    height: 24px;
-    line-height: 20px;
+    width: 100%;
+    max-width: 260px;
+    height: auto;
     font-weight: 600;
+    text-decoration: dashed;
 }
 
        /*seh2*/
-
+.seh2{
+    width: 100%;
+}
 .seh2 header{
     display: flex;
     margin-top: 100px;
-    margin-bottom: 130px;
-    margin-left: 120px;
-    gap: 190px;
+    padding-bottom: 130px;
+    padding-left: 120px;
+    gap: 19%;
+    align-items: center;
    
 
 }
 header h1{
     width: 705px;
-    height: 50px;
+    height: auto;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Oswald', sans-serif;
     color: #382459;
@@ -88,39 +99,45 @@ header h1{
 }
 header a{
     font-size: 15px;
+    font-weight: 600;
     text-align: center;
-    width: 224px;
-    height: 35px;
+    max-width: 224px;
+    width: 90%;
+    height: auto;
     background: #FF1DC0;
     border-radius: 48px;
     color: #FFFFFF;
     border: none;
     text-decoration: none;
-    padding-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .seh2 main{
     display: flex;
-    margin-right: 210px;
-    margin-bottom: 75px;
-    margin-left: 120px;
-    gap: 190px;
+    padding-bottom: 110px;
+    padding-left: 120px;
+    gap: 19%;
 }
 .s2 img{
-    width: 75px;
-    height: 73px;
-    margin: 20px
+    width: 100%;
+    max-width: 75px;
+    height: auto;
+    padding-bottom: 20px
 }
 .s2 h2{
-    width: 260px;
-    height: 73px;
+    width: 100%;
+    max-width: 260px;
+    height: auto;
     color: #382459;
     font-size: 25px;
+    font-weight: 600;
     line-height: 32px;
     padding-bottom: 20px;
 }
 .s2 p{
-    width: 350px;
-    height: 126px;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
     color: #382459;
     font-size: 16px;
     font-weight: 500;
@@ -128,80 +145,99 @@ header a{
     
 }
 .s3 img{
-    width: 85px;
-    height: 91px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    width: 100%;
+    max-width: 75px;
+    height: auto;
+    padding-bottom: 20px;
 }
 .s3 h2{
-    width:368px ;
-    height: 66px;
+    width: 100%;
+    max-width:368px ;
+    height: auto;
     font-weight: 600;
     font-size: 25px;
-    line-height: 32px;
-    margin-left: 20px;
     color: #382459;
     padding-bottom: 20px;
 }
 .s3 p{
-    width: 352px;
-    height: 93px;
+    width: 100%;
+    max-width: 352px;
+    height: auto;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    margin-left: 20px;
     color: #382459;
 }
 /*seh3*/
 .seh3{
     background-color: #382459;
-    height: 624px;
-    width: 1397px;
+    height: auto;
+    width: 100%;
     display: flex;
-    padding-left: 120px;
-    padding-top: 100px;
-    gap: 250px;
+    gap: 50px;
 }
 .seh3 img{
     position: absolute;
-    width: 95.63px;
-    height: 128px;
-    right: 250px;
-    top: 2117px;
+    width: 100%;
+    max-width: 95.63px;
+    height: auto;
+    padding-top: 555px ;
+    
 }
- .h1,.h2{
+.s4 .h1{
+    padding-top: 100px ;
+}
+.s5 .h1{
+    padding-top: 100px;
+}
+ .seh3 .h1,.h2{
     color:#30FFCD;
-    width: 295px;
+    max-width: 295px;
+    width: 100%;
     height: 34px;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
-    font-size: 44px;
+    font-size: 40px;
     padding-bottom: 45px;
+    margin-left: 120px;
 }
- .p1,.p3{
+ .seh3 .p1,.p3{
     color: #FFFFFF;
-    width: 308px;
+    max-width: 308px;
+    width: 100%;
     height: 82px;
     font-weight: 500;
-    font-size: 20px;
-    padding-bottom: 35px;
+    font-size: 16px;
+    padding-bottom: 25px;
+    margin-left: 120px;
+    
 }
- .p2,.p4{
+ .seh3 .p2,.p4{
     color: #FFFFFF;
-    width: 277px;
+    max-width: 277px;
+    width: 100%;
     height: 30px;
     font-weight: 500;
-    font-size: 13px;
-    padding-bottom: 50px;
+    font-size: 10px;
+    padding-bottom: 69px;
+    padding-left: 120px;
+    
+}
+.s4 .p3{
+   max-width: 412px;
+   width: 100%;
+}
+.s5 .p3 {
+    max-width: 360px;
+    width: 100%;
 }
 
 /*seh4*/
 .seh4{
-    padding-left: 120px;
     padding-top: 110px;
     color: #382459;
-
+    width: 100%;
 }
 .seh4 header{
     padding-bottom: 110px;
@@ -211,11 +247,13 @@ header a{
     font-size: 47px;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Oswald', sans-serif;
+    padding-left: 120px;
     
 }
 .seh4 main{
+    padding-left: 120px;
     display: flex;
-    gap: 100px;
+    gap: 50px;
 }
  .s6 h2{
      width: 216px;
@@ -263,18 +301,18 @@ header a{
  .seh5{
      background-color:  #2E1E49;
      display: flex;
-     width: 1397px;
+     width: 100%px;
      padding-top: 105px;
      padding-left: 120px;
      padding-bottom: 105px ;
-     gap: 200px;
+     gap: 7%;
      z-index: -1;
  }
  .s9 h1{
      width: 420px;
      height: 48px;
      font-weight: 500;
-     font-size: 44px;
+     font-size: 40px;
      color: #30FFCD;
      padding-bottom: 76px;
      font-family: 'Montserrat', sans-serif;
@@ -284,13 +322,13 @@ header a{
      width: 436px;
      height: 264px;
      font-weight: 500;
-     font-size: 20px;
+     font-size: 16px;
      color: #FFFFFF;
-     padding-bottom: 150px;
+     padding-bottom: 75px;
  }
  .s9 a{
      color: #30FFCD;
-     font-size: 20px;
+     font-size: 16px;
      text-decoration: none;
      font-weight: 500;
      padding: 8px 20px;
@@ -302,23 +340,24 @@ header a{
      width: 420px;
      height: 48px;
      font-weight: 500;
-     font-size: 44px;
+     font-size: 40px;
      color: #30FFCD;
      font-family: 'Montserrat', sans-serif;
      font-family: 'Oswald', sans-serif;
      padding-bottom: 76px;
+     
  }
  .s10 p{
      width: 370px;
      height: 264px;
      font-weight: 500;
-     font-size: 20px;
+     font-size: 16px;
      color: #FFFFFF;
-     padding-bottom: 150px;
+     padding-bottom: 75px;
  }
  .s10 a{
      color: #30FFCD;
-     font-size: 20px;
+     font-size: 16px;
      text-decoration: none;
      font-weight: 500;
      padding: 8px 20px;
@@ -330,9 +369,8 @@ header a{
  .seh6{
      display: flex;
      padding-top: 115px;
-     padding-left: 120px;
      height: 325px;
-
+    padding-left: 120px;
  }
 .s11 h1{
     width: 520px;
@@ -341,12 +379,12 @@ header a{
     font-family: 'Oswald', sans-serif;
     color: #382459;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 47px;
     padding-bottom: 60px;
  }
  .s11 p{
      color: #382459;
-     font-size: 22px;
+     font-size: 16px;
      font-weight: 500px;
      width: 400px;
      height: 150px;
@@ -356,7 +394,7 @@ header a{
     width: 464px;
     height: 649.6px;
     right: 120px;
-    top: 3550px;
+    top: 3475px;
     z-index: 0;
  }
 
@@ -366,7 +404,7 @@ header a{
      display: flex;
      background: #382459;
      z-index: 1;
-     width: 1517px;
+     width: 100%;
      height: 576px;
      background-size: 100% 100%;
  }
@@ -379,49 +417,50 @@ header a{
 
  }
  .s14 h1{
-    
     width: 402.11px;
     height: 100.04px;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 47px;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
     color: #30FFCD;
  }
  .s14 p{
     width: 480.2px;
     height: 70.03px;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 16px;
     color: #FFFFFF;
     padding-bottom: 70px;
  }
  .s14 a{
     font-size: 15px;
+    font-weight: 600;
     background: #FF1DC0;
     border-radius: 48px;
     color: #FFFFFF;
     border: none;
     text-decoration: none;
-    padding: 10px 50px;
+    padding: 15px 50px;
  }
  /*seh8*/
  .seh8{
      display: flex;
      background-color: #FFFFFF;
-     margin-top: 600px;
-     padding-top: 90px;
-     padding-left: 120px;
-     padding-bottom: 90px;
+     margin-top: 690px;
+     margin-bottom: 90px;
+     width: 100%;
  }
  .s15 .img1{
     width: 188px;
     height: 43px;
     padding-bottom: 53px;
     padding-right: 110px;
+    padding-left: 120px;
  }
  .s15 .img2{
+     padding-left: 120px;
      width: 19px;
      height: 19px;
  }
@@ -431,7 +470,6 @@ header a{
     font-weight: 700;
     font-size: 16px;
     padding-bottom: 14px;
-    padding-right: 230px;
  }
  .s16 p{
     width: 383.17px;
@@ -450,5 +488,15 @@ header a{
      padding-right: 80px;
      width: 139px;
      height: 19px;
+ }
+ @media  screen and(max-width: 700px) {
+     .navbar{
+         display: none;
+     }
+     .navbar1{
+         display: flex;
+         justify-content: space-around;
+     }
+     
  }
      
