@@ -161,6 +161,7 @@ main a {
 }
 /*seh3*/
 .seh3 {
+    position: relative;
   background-color: #382459;
   display: flex;
   padding-left: 120px;
@@ -634,7 +635,7 @@ main a {
   .seh7 .s13 img {
     position: absolute;
     top: -30%;
-    
+    right: -0%;
     z-index: 0;
   }
   .s14 {
