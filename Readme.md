@@ -1,2 +1,2 @@
 # online demo
-https://kananmammadov.netlify.app
+https://az-bootcamp-landing.netlify.app
